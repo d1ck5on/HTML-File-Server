@@ -1,6 +1,6 @@
 # HTTP File Server
 
-An HTTP1.1 server that acts as a file store.
+A HTTP1.1 server that acts as a file store.
 
 ## Quick start
 
