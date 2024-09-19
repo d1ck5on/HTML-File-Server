@@ -1,0 +1,11 @@
+services:
+  server:
+    image: http-server
+    build:
+      context: .
+      dockerfile: server.dockerfile
+    environment:
+      SERVER_PORT: 8080
+      SERVER_WORKING_DIRECTORY: /root/workdir
+    ports:
+      - 8080:8080
